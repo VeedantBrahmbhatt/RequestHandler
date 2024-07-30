@@ -54,4 +54,4 @@ The JavaScript file handles the dynamic aspects of the project. It generates the
 
 #### Conclusion
 
-This project demonstrates the power of HTML, CSS, and JavaScript in creating dynamic and interactive web applications. By implementing pagination and expandable rows, we can manage and display large sets of data in a user-friendly manner. This approach enhances the usability of data-intensive applications, making it easier for users to navigate and interact with the information presented.
+This project demonstrates the power of HTML, CSS, and JavaScript in creating dynamic and interactive web applications. By implementing pagination and expandable rows, we can manage and display large sets of data in a user-friendly manner. This approach enhances the usability of data-intensive applications, making it easier for users to navigate and interact with the information presented.git 
