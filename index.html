@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Display with Pagination</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <table id="recordTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Type Of Request</th>
+                    <th>DomainID</th>
+                    <th>Company</th>
+                    <th>Department</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Application</th>
+                    <th>Environment</th>
+                    <th>Privilege Level</th>
+                    <th class="plus-button">+</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Records will be generated here -->
+            </tbody>
+        </table>
+        <div id="pagination" class="pagination">
+            <!-- Pagination controls will be generated here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

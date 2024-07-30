@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin-top: 25vh; /* Adjust as needed to position above the center */
+    width: 90%; /* Adjust the width as needed */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #e6f7ff; /* Whitish blue color */
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.plus-button {
+    width: 50px;
+}
+
+#recordTable > tbody > tr > td > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#recordTable > tbody > tr > td > table th, #recordTable > tbody > tr > td > table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.pagination {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #007bff;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination button:hover:not(.active) {
+    background-color: #ddd;
+}
